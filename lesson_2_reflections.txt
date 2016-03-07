@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do it? 
+
+It creates a new git repository - does this automatically appear online on the git website? 
+
+cd <folder location>
+To sync up git bash with a folder/directory, "cd into it" by entering the directory location using all / backslashes between the folder and file names 
+
+Git Init =Create an empty Git repository. Basically a .git directory with subdirectories for objects, refs/heads, refs/tags and template files. 
+
+Running git init in an existing repository is safe. It will not overwrite things that are already there. The primary reason for rerunning git init is to pick up newly added templates (or to move the repository to another place if --separate-git-dir is given)
+
+GIT LOG
+
+After you have created several commits, or if you have cloned a repo with an existing commit history, you'll probably want to look back and see what has happened. The most bsaic and powerful tool to do this is the git log commnand 
+
+The most recent commits show up first 
+
+One of the more helpful options is -p which shows the difference introduced in each commit. You can also use -2 which limits the output to only the last two entries 
+
+$git log -p -2
+
+To exit git log select "q+Enter" to quit 
