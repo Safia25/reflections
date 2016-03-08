@@ -25,3 +25,10 @@ How is the staging area different from the working directory and the repository?
 
 The staging area is intermediary between a full commit and a directory on your computer. It is not part of the repository just yet because it is not fully commited 
 
+The Staging Area is the place between a draft and a live production. There are unique git diffs to help you compare the recent changes in the staging area to the draft and to what is live in production now
+
+git diff - no argument = compare files in the working directory (draft) to modified files in the stagin area
+
+git diff --staging = compare the file ready for production (staging area) with the current live file (i.e. most recent commit) in the repository
+
+If there are no differences between the files - nothing will appear
