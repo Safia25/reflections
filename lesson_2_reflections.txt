@@ -20,3 +20,8 @@ One of the more helpful options is -p which shows the difference introduced in e
 $git log -p -2
 
 To exit git log select "q+Enter" to quit 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is intermediary between a full commit and a directory on your computer. It is not part of the repository just yet because it is not fully commited 
+
