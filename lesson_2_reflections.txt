@@ -32,3 +32,5 @@ git diff - no argument = compare files in the working directory (draft) to modif
 git diff --staging = compare the file ready for production (staging area) with the current live file (i.e. most recent commit) in the repository
 
 If there are no differences between the files - nothing will appear
+
+Learning how to create different versions of the same file using branches
