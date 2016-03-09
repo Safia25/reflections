@@ -34,3 +34,7 @@ git diff --staging = compare the file ready for production (staging area) with t
 If there are no differences between the files - nothing will appear
 
 Learning how to create different versions of the same file using branches
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+They would help me as a designer so that I can test out various color schemes and styles of the same basic website to see which one I like best
