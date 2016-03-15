@@ -38,3 +38,7 @@ Learning how to create different versions of the same file using branches
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 They would help me as a designer so that I can test out various color schemes and styles of the same basic website to see which one I like best
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You know you are working off the most up today copy of the code everyone is collaborating on. You can work on it independtly without anyone seeing your changes until your ready to show them. 
